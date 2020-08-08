@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MoOD</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>MITIGATION OF ORBITAL DEBRIS</h1>
+  <p>Clean Space</p>
+</div>
+
+<div class="navbar">
+ <b><a href="index.html">Home</a></b>
+ <b> <a href="about.html">About</a></b>
+  <b><a href="findings.html">Findings</a></b>
+ <b> <a href="Gallery.html">Gallery</a></b>
+<b>  <a href="follow.html" class="right">Follow Us</a></b>
+</div>
+
+
+<div class="row">
+  <div class="side">
+    <h2>MoOD</h2>
+   <img src="WhatsApp Image 2020-08-07 at 10.20.58 AM.jpeg"style="height:400px;width:400px">
+    <p></p>
+    <h3></h3>
+    <p></p>
+  </div>
+  <div class="main">
+    <h2>Findings</h2>
+<b><h3>Multi Tethers</h3></b>
+   <img src="WhatsApp Image 2020-08-07 at 10.20.55 AM.jpeg"style="height:500px;width:1200px">
+   
+    <p>Nowdays Single tether system has been used to deorbit the debris and we propose a new system which has multi tethers to do the same operation in an efficient way. We try to achieve the same potential of a single tether with multi tether system. Different parameters such as force,length,current are compared and the results obtained are similar. Hence of using multi tether system we can reduce the breakage of tethers and the goal of deorbiting can be done successfuly.<br>
+    <br><b>Concept of multiple tethers:</b><br>
+    <h4>Force for constant current:</h4>
+    We assumed initially that the current is constant at all times. Let us consider a tether of length L and let c voltage induced by this tether.Now let us consider a tether of length L/N, but the material and the area remains the same.So the length of the tether affects the voltage by the tether. Now let us look at the force produced by both of the tethers L and L/N.<br>
+   <h4> Force by tether of length L:</h4>
+    By lorentz force we have,Tether is placed perpendicular to the direction of magnetic field of earth, therefore &theta; = 90 ◦ and voltage.And we know that where A is the cross sectional are and therefore force produced by the tether is independent of the length of individual the tether.<h4>Force by tether of length L/N:</h4>
+  <p>  Now if we divide a tether of length L into N pieces,we get new force,as the induced voltage reduces due to reduce in length, the force also reduces.But when there are N such tethers, the force is same as that due to single tether.Therefore the force produced by a single tether is equal to the force produced by multiple tethers whose lengths sums up to the length of the single tether.</p>
+  <div style="display: flex; justify-content: center;">
+ <img src="WhatsApp Image 2020-08-04 at 5.33.49 PM.jpeg"style="height:400px;width:400px;float:center"></div>
+<h4>Force due to changing current:</h4>But current changes instantaneously throughout the process of deorbiting of the satellite.Hence the Current change of both single and multi tethers are calculated separately and found to be the same based on the length used.<br>Distance between adjacent tethers :<h4>Plasma influence on multiple conductors :</h4><p>Consider a condition where two conductors are placed in the plasma, the positive ion sheath is formed as per the previous explanations in this paper. When these two conductors are placed very close to each other the net positive ions around each conductor reduces as there will be interference the sheath of adjacent conductors, resulting in the distribution of positive charges between the interfering sheaths. The reduction of positive ions in the sheath will in return reduce the number of electrons on the sheath-contact surface of the conductor resulting in the reduction of the current in the individual conductor. As the above condition also occurs when we place multiple tethers there is a need to find the minimal spacing between the adjacent tethers so that the reduction of induced currents in the individual tethers does not happen. So, we concluded that if each of the tethers is placed outside the sheath of its adjacent tether, the reduction of current will not happen. It was found that a minimum spacing of twice the sheath radius of the individual tether will prevent the above-mentioned issue, as there will be no interference between the sheath of adjacent tethers.
+ </p> 
+<div style="display: flex; justify-content: center;">
+ <img src="WhatsApp Image 2020-08-07 at 10.20.54 AM.jpeg"style="height:400px;width:400px;vertical-align:middle;"></div>
+<h4>Deorbiting time due to changing current:</h4>Multiple tether as not affecting the current in any other tether(this holds when sheath to sheath interactions do not affect the current in the tether)does not affect the de-orbiting time.</p>
+
+      
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Create by MoOD</h2>
+  <img src="sserd.jpeg"style="height:100px;width:400px">
+
+</div>
+
+
+</body>
+</html>
+
